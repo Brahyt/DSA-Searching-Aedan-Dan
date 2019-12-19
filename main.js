@@ -99,7 +99,7 @@ function commandOfficer(){
   ship.insert(20, "Crusher")
   ship.insert(2, "LSO")
   ship.insert(18, "Selar")
-  ship.preOrder()
+  console.log(ship.bfs(ship))
 }
 //7. Max profit
 function maxProfit(){
